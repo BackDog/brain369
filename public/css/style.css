@@ -1,0 +1,50 @@
+body {
+    color: white;
+    background-image: url(../img/body-bg.jpg);
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+}
+body,input,button {
+        word-spacing: 2px;
+        font-size: 12px;
+    }
+    .flex-container {
+        width: 100%
+        border: 1px solid black;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .game {
+        width: 150px;
+        height: 50px;
+        border: 2px solid black;
+        border-radius: 3px;
+        padding: 3px;
+    }
+    .live {
+        color: white;
+        background-color: green;
+    }
+    .comming {
+        color: black;
+        background-color: lightblue;
+        border-style: dotted;
+    }
+    .column {
+        box-sizing: border-box;
+      float: left;
+      width: 50%;
+      padding: 10px;
+      height: 300px; /* Should be removed. Only for demonstration */
+    }
+
+    /* Clear floats after the columns */
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+    .win {
+        color: yellow;
+    }
