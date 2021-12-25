@@ -1,6 +1,6 @@
 console.log("Siêu bet thủ đang hoạt động...");
 
-var wsUri = "ws://localhost:8888";
+var wsUri = "ws://brain369.herokuapp.com:8888";
 var output;
 
 window.addEventListener("load", init, false);
